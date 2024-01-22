@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo"></a>
+        <nav class="navbar">
+            <ul>
+                <li>
+                    <a href="../index.html"><img src="./image/logo.png" alt="" width="150px" height="150px"></a>
+                </li>
+
+
+            </ul>
+        </nav>
+        <div class="fas fa-bars"></div>
+    </header>
+    <div class="container">
+        <div class="left">
+            <div class="calendar">
+                <div class="month">
+                    <i class="fas fa-angle-left prev"></i>
+                    <div class="date">decembre 2015</div>
+                    <i class="fas fa-angle-right next"></i>
+                </div>
+                <div class="weekdays">
+                    <div>Dimanche</div>
+                    <div>Lundi</div>
+                    <div>Mardi</div>
+                    <div>Mercredi</div>
+                    <div>Jeudi</div>
+                    <div>Vendredi</div>
+                    <div>Samedi</div>
+                </div>
+                <div class="days"></div>
+                <div class="goto-today">
+                    <div class="goto">
+                        <input type="text" placeholder="moins/annee" class="date-input" />
+                        <button class="goto-btn">Aller</button>
+                    </div>
+                    <button class="today-btn">Aujourd'hui</button>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="today-date">
+                <div class="event-day">Mercredi</div>
+                <div class="event-date">12 decembre 2022</div>
+            </div>
+            <div class="events"></div>
+            <div class="add-event-wrapper">
+                <div class="add-event-header">
+                    <div class="title">Ajouter un évenement</div>
+                    <i class="fas fa-times close"></i>
+                </div>
+                <div class="add-event-body">
+                    <div class="add-event-input">
+                        <input type="text" placeholder="Nom d'évenement" class="event-name" />
+                    </div>
+                    <div class="add-event-input">
+                        <input type="text" placeholder="Heure de l'événement à partir de" class="event-time-from" />
+                    </div>
+                    <div class="add-event-input">
+                        <input type="text" placeholder="Heure de l'événement à" class="event-time-to" />
+                    </div>
+                </div>
+                <div class="add-event-footer">
+                    <button class="add-event-btn">Ajouter un évenement</button>
+                </div>
+            </div>
+        </div>
+        <button class="add-event">
+          <i class="fas fa-plus"></i>
+        </button>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>

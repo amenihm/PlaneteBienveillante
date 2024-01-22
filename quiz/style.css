@@ -1,0 +1,135 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    
+    header .logo {
+        color: var(--green);
+        font-size: 1rem;
+    }
+    
+    header .navbar ul {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        list-style: none;
+        height: 20px;
+    }
+    
+    header .navbar ul li {
+        margin: 0 1rem;
+    }
+    
+    header .navbar ul li a {
+        font-size: 1.5rem;
+        color: #666;
+    }
+    
+    header .navbar ul li a:hover {
+        color: var(--green);
+    }
+    
+    header .fa-bars {
+        font-size: 2rem;
+        color: #666;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .lii {
+        padding-left: 100px;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        background: #fff;
+        box-shadow: 0 .1rem .3rem rgba(0, 0, 0, .3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        padding: 1rem 0rem;
+        width: 100%;
+    }
+    
+    body {
+        width: 100%;
+        height: 150vh;
+        padding-top: 150px;
+        background-image: linear-gradient(rgba(22, 136, 58, 0.8), rgba(0, 0, 50, 0.8)), url(./image/nature.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .app {
+        background: #fff;
+        width: 90%;
+        max-width: 600px;
+        margin: 100px auto 0;
+        border-radius: 30px;
+        padding: 30px;
+    }
+    
+    .app h1 {
+        font-weight: 25px;
+        color: #001e4d;
+        font-weight: 600;
+        border-bottom: 1px solid #333;
+        padding-bottom: 30px;
+    }
+    
+    .quiz {
+        padding: 20px 0px;
+    }
+    
+    .quiz h2 {
+        font-size: 18px;
+    }
+    
+    .btn {
+        background: #fff;
+        color: #222;
+        font-weight: 500;
+        width: 100%;
+        border: 1px solid #222;
+        padding: 10px;
+        margin: 10px 0;
+        text-align: left;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    
+    .btn:hover:not([disabled]) {
+        background: #222;
+        color: #fff;
+    }
+    
+    .btn:disabled {
+        cursor: no-drop;
+    }
+    
+    #next-btn {
+        background: #0aa668;
+        color: #FFF;
+        font-weight: 500;
+        width: 150px;
+        border: 0;
+        padding: 10px;
+        margin: 20pxauto 0;
+        border-radius: 4px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    .correct {
+        background: #9aeabc;
+    }
+    
+    .incorrect {
+        background: #ff9393;
+    }
